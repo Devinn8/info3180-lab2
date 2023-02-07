@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="big-container">
+    <div class="top-half">
+        <img id="pic" src="{{ url_for('static', filename='Me.jpg')}}">
+        <h2>Devinn Weller</h2>
+        <p>@WhoMe?</p>
+        <p>St.Catherine, Jamaica</p>
+        <p>Joined {{date}}</p>
+
+    </div>
+    <div class="bottom-half">
+        <p class="bio">I am a 3rd year Computer Science student enrolled at UWI. I enjoy watching anime and playing football</p>
+        <div class="profile-info">
+            <ul>
+                <li>
+                    <div class="stats">7</div>
+                    Posts
+                </li>
+                <li>
+                    <div class="stats">100</div>
+                    Following
+                </li>
+                <li>
+                    <div class="stats">250</div>
+                    Followers
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <button class="button">Follow</button>
+</div>
+
+
+{% endblock %}
