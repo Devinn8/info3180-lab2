@@ -20,9 +20,8 @@ def about():
 @app.route('/profile')
 def profile():
     def format_date_joined():
-        date_joined = datetime.date(2018,2,7)
+        date_joined = datetime.date(2023,2,7)
         return date_joined.strftime('%b, %Y')
-    """Render the fake profile information page."""
     return render_template('profile.html', date=format_date_joined())  
 
 ###

@@ -1,3 +1,66 @@
 body {
     padding-top: 5rem;
 }
+
+.big-container{
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3%;
+    padding-bottom: 10px;;
+}
+
+.top-half {
+    background-color: aqua;
+    position: relative;
+    border-radius: 3%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color:coral;
+}
+
+.bottom-half{
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px white;
+}
+
+#pic{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    position: relative;
+}
+
+.button{
+    background-color: chartreuse;
+    border-radius: 10%;
+    padding: 5px 20px;
+    border-color: chartreuse;
+    margin-left: 300px;
+}
+
+.newlist {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 150px;
+  }
+
+li{
+    float: left;
+    padding: 10px;
+}
+
+.stats{
+    font-weight: 700;
+}
