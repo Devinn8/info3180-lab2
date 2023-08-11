@@ -11,19 +11,19 @@ uploaded_images = {
         'description': 'Ever wondered what its like to touch the clouds? Well we have the answer. Our air balloon. is a luxurious sight-seeing vehicle. Ensure you do not use it on extremely windy or rainy days'
     },
     2: {
-        'filename': 'static/pics/Mist.jpg',
+        'filename': '/static/pics/Mist.jpg',
         'title': 'Misty Forest',
         'price': 75.00,
         'description': 'This is quite the conversation starter. We guarantee that your guests will be intrigued by this fascinating image. '
     },
     3: {
-        'filename': 'static/pics/Beachball.jpg',
+        'filename': '/static/pics/Beachball.jpg',
         'title': 'Beachball',
         'price': 29.99,
         'description': 'Need to liven up your next beach or pool trip? Well, take one of our new and improved beachballs with you. Its fun for everyone.'
     },
     4: {
-        'filename': 'static/pics/Flowers.jpg',
+        'filename': '/static/pics/Flowers.jpg',
         'title': 'Flowers',
         'price': 14.99,
         'description': 'Have an important celebration coming up? Want to be extra romantic tonight? Or you just wanna get out of the doghouse? Try using one of our handpicked bouquet of flowers. They should help ;)'
