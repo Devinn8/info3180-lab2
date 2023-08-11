@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1 class="display-6 fw-bold mb-3">Product Information</h1>
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <img src="{{ url_for('static', filename=image_info.filename) }}" class="card-img-top" alt="{{ image_info.title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ image_info.title }}</h5>
+                <p class="card-text">Product Name: {{ image_info.product_name }}</p>
+                <p class="card-text">Product Description: {{ image_info.description }}</p>
+                <p class="card-text">Product Price: {{ image_info.price }}</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <a href="{{ url_for('products') }}" class="btn btn-secondary">Back to All Images</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

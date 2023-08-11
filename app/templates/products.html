@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1 class="display-6 fw-bold mb-3">Products</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for product_id, image_info in uploaded_images.items() %}
+        <div class="col">
+            <div class="card">
+                <a href="{{ url_for('view_image', product_id=product_id) }}">
+                    <img src="{{ image_info.filename }}" class="card-img-top" alt="{{ image_info.title }}">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{ image_info.title }}</h5>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
